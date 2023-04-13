@@ -1,3 +1,7 @@
+:root{
+    --nav-footer : #d2d1cd;
+}
+
 /*
 nav_footer: #d2d1cd;
 text-color: #333333;
@@ -31,7 +35,6 @@ a:hover{
 .icon{
     height: 25px;
     width: 25px;
-    margin: 0 5px;
 }
 
 body{
@@ -39,8 +42,8 @@ body{
 }
 
 nav{
-    height: 40px;
-    background-color: #d2d1cd;
+    height: 60px;
+    background-color: var(--nav-footer);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,14 +118,14 @@ section{
 }
 
 .title-section{
-    border: 1px solid red;
-    color: #333;
+    background-color: orangered;
+    color: white;
     width: 100%;
     height: 60px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .title-section h2{
@@ -132,7 +135,6 @@ section{
 }
 
 .content-engajamento{
-    border: 1px solid orange;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -233,7 +235,7 @@ section .card-servicos{
 
 .card-servicos a{
     margin-top: 25px;
-    background-color: #333;
+    background-color: orangered;
     color: white;
     width: 200px;
     height: 40px;
@@ -244,6 +246,94 @@ section .card-servicos{
 }
 
 .card-servicos a:hover{
-    background-color: #444;
+    background-color: orange;
 }
 
+.container-depoimentos{
+    background-color: #d2d1cd;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-depoimento{
+    border: 3px solid orangered;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    margin: 10px
+
+}
+
+.card-depoimento img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.card-depoimento p{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    padding: 10px;
+    margin: 5px;
+}
+
+.card-depoimento span{
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+    font-weight: bolder;
+}
+
+.down{
+    margin-top: 50px;
+}
+
+
+.container-equipe{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-equipe{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #d2d1cd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+ .card-equipe img{
+
+}
+.card-equipe h2{
+}
+
+.card-equipe h3{
+}
+
+.card-equipe-redes-sociais{
+
+}
+
+.card-equipe-redes-sociais a{
+
+}
+
+.card-equipe-redes-sociais img{
+    
+}
