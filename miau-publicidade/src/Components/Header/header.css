@@ -1,0 +1,19 @@
+header{
+    width: 100%;
+    height: 450px;
+}
+
+.header-container{
+    width: 100%;
+    height: inherit;
+}
+
+.header-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.slider-content{
+    width: inherit;
+    height: inherit;
+}
