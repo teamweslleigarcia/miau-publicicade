@@ -1,0 +1,14 @@
+.card-icons-100x{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--primary);
+}
+
+.card-icons-100x:hover{
+    background-color: var(--secondary);
+}
+

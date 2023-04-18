@@ -1,19 +1,25 @@
 import './App.css';
-import Section from './Components/Section';
 import Navbar from './Components/Navbar';
-import Construcao from './Pages/Construcao';
 import Header from './Components/Header';
+import SectionServicos from './Components/SectionServicos';
+import SectionDepoimentos from './Components/SectionDepoimentos';
+import SectionClients from './Components/SectionClients';
+import SectionContacts from './Components/SectionContacts';
+import Footer from './Components/Footer';
+import SectionPortifolio from './Components/SectionPortifolio';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Header />
-      <Section title="Serviços" />
-      <Section title="Depoimentos" />
-      <Section title="Clientes" />
-      <Section title="Equipe" />
-      <Section title="Contato" />
+      <SectionPortifolio />
+      <SectionServicos />
+      <SectionDepoimentos  />
+      <SectionClients />
+      <SectionContacts />
+      <Footer />
+      
     </div>
   );
 }

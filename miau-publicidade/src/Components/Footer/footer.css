@@ -1,0 +1,23 @@
+footer{
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    background-color: var(--secondary);
+}
+
+.footer-container{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.footer-container span{
+    margin-right: 10px;
+}
+
+.footer-container a{
+    font-weight: bolder;
+}

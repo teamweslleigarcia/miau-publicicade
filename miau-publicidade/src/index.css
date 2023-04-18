@@ -34,3 +34,27 @@ a:hover{
     --secondary: #f99745;
     --text-icon32x: #fff;
 }
+
+.section-container{
+    height: 600px;
+    width: 100%;
+    background-color: silver;
+    
+}
+
+.section-content{
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.section-container h2{
+    color: #fff;
+    height: 60px;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: var(--secondary);
+}

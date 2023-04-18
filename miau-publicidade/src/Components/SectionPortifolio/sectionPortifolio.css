@@ -1,0 +1,36 @@
+.card-icons-200x-container{
+    width: inherit;
+    height: inherit;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.card-icons-200x-left{
+    border: 1px solid orange;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-icons-200x-right{
+    border: 1px solid pink;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-icons-200x-left .col-left{
+    margin-top: 50px;
+}
+.left{
+    margin-left: 50px;
+}
