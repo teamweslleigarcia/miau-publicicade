@@ -1,0 +1,15 @@
+.card-icons-200x{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--primary);
+    margin: 10px;
+}
+
+.card-icons-200x:hover{
+    background-color: var(--secondary);
+}
+
